@@ -1,0 +1,101 @@
+users:
+  distinct_id: 
+    mixpanel:  distinct_id
+    type: String
+  first_name: 
+    mixpanel: First Name
+    type: String
+  last_name: 
+    mixpanel: Last Name
+    type: String
+  email: 
+    mixpanel: $email
+    type: String
+events:
+  # sign_up:
+  #   mixpanel: Sign Up
+  #   type: String
+  # sign_in:
+  #   mixpanel: Sign In
+  #   type: String
+  # sign_in_mobile:
+  #   mixpanel: Sign In Mobile
+  #   type: String
+  # open_feed_mobile:
+  #   mixpanel: Open Feed Mobile
+  #   type: String
+  # open_feed:
+  #   mixpanel: Open Feed
+  #   type: String
+  # link_view:
+  #   mixpanel: Link View
+  #   type: String
+  # link_done:
+  #   mixpanel: Link Done
+  #   type: String
+  # link_saved:
+  #   mixpanel: Link Saved
+  #   type: String
+  name:
+    mixpanel: event
+    type: String
+  utm_medium:
+    mixpanel: UTM Medium
+    type: String
+  utm_source:
+    mixpanel: UTM Source
+    type: String
+# move events_users attributes below
+  user_id:
+    mixpanel: User
+    type: Integer
+  time: 
+    mixpanel: time
+    type: DateTime
+  link_title: 
+    mixpanel: Link Title
+    type: String
+  link_id:
+    mixpanel: Link Id
+    type: Integer
+  link_source:
+    mixpanel: Link Source
+    type: String
+  link_source:
+    mixpanel: Link Source
+    type: String
+  link_title:
+    mixpanel: Link Title
+    type: String
+  link_url:
+    mixpanel: Link URL
+    type: String
+
+# events_users:
+#   event_id: 
+#     mixpanel: Event
+#     type: Integer 
+#   user_id:
+#     mixpanel: User
+#     type: Integer
+#   time: 
+#     mixpanel: time
+#     type: DateTime
+#   link_title: 
+#     mixpanel: Link Title
+#     type: String
+#   link_id:
+#     mixpanel: Link Id
+#     type: Integer
+#   link_source:
+#     mixpanel: Link Source
+#     type: String
+#   link_source:
+#     mixpanel: Link Source
+#     type: String
+#   link_title:
+#     mixpanel: Link Title
+#     type: String
+#   link_url:
+#     mixpanel: Link URL
+#     type: String
